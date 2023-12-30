@@ -1,0 +1,183 @@
+root = true
+# 指定此 .editorconfig 文件的根目錄。當此值為 true 時，將應用所有頂層目錄中的設定。
+
+[*]
+# 這是一個全域配置，適用於所有文件類型。
+
+cpp_indent_braces=false
+# 設置花括號的縮進。此設定為 false，表示不縮進花括號。
+
+cpp_indent_multi_line_relative_to=innermost_parenthesis
+# 多行程式碼相對於最內層括號進行縮進。
+
+cpp_indent_within_parentheses=indent
+# 括號內部的程式碼進行縮進。
+
+cpp_indent_preserve_within_parentheses=false
+# 括號內的程式碼不保留縮進。
+
+cpp_indent_case_labels=false
+# case 標籤不進行縮進。
+
+cpp_indent_case_contents=true
+# case 內容進行縮進。
+
+cpp_indent_case_contents_when_block=false
+# case 內容在 block 內時不進行縮進。
+
+cpp_indent_lambda_braces_when_parameter=true
+# 參數存在時，lambda 表達式的花括號進行縮進。
+
+cpp_indent_goto_labels=one_left
+# goto 標籤在左側進行縮進。
+
+cpp_indent_preprocessor=leftmost_column
+# 預處理器指令在最左邊的列進行縮進。
+
+cpp_indent_access_specifiers=false
+# 訪問修飾符（如 public、private 等）不進行縮進。
+
+cpp_indent_namespace_contents=false
+# 命名空間內容不進行縮進。
+
+cpp_indent_preserve_comments=false
+# 註解不保留縮進。
+
+cpp_new_line_before_open_brace_namespace=ignore
+# 在命名空間開始括號前插入換行符，但忽略此設定。
+
+cpp_new_line_before_open_brace_type=ignore
+# 在類型定義開始括號前插入換行符，但忽略此設定。
+
+cpp_new_line_before_open_brace_function=ignore
+# 在函數定義開始括號前插入換行符，但忽略此設定。
+
+cpp_new_line_before_open_brace_block=ignore
+# 在程式區塊的開始括號前插入換行符，但忽略此設定。
+
+cpp_new_line_before_open_brace_lambda=ignore
+# 在 lambda 函數的開始括號前插入換行符，但忽略此設定。
+
+cpp_new_line_scope_braces_on_separate_lines=false
+# 作用域的括號不插入獨立的換行符。
+
+cpp_new_line_close_brace_same_line_empty_type=false
+# 空類型的結束括號不與同一行。
+
+cpp_new_line_close_brace_same_line_empty_function=false
+# 空函數的結束括號不與同一行。
+
+cpp_new_line_before_catch=true
+# 在 catch 關鍵字前插入換行符。
+
+cpp_new_line_before_else=true
+# 在 else 關鍵字前插入換行符。
+
+cpp_new_line_before_while_in_do_while=false
+# 在 do-while 循環的 while 關鍵字前插入換行符。
+
+cpp_space_before_function_open_parenthesis=remove
+# 在函數定義的開括號前刪除空格。
+
+cpp_space_within_parameter_list_parentheses=false
+# 參數列表括號內不保留空格。
+
+cpp_space_between_empty_parameter_list_parentheses=false
+# 空參數列表括號內不保留空格。
+
+cpp_space_after_keywords_in_control_flow_statements=true
+# 控制流語句中的關鍵字後保留空格。
+
+cpp_space_within_control_flow_statement_parentheses=false
+# 控制流語句的括號內不保留空格。
+
+cpp_space_before_lambda_open_parenthesis=false
+# 在 lambda 函數的開括號前不保留空格。
+
+cpp_space_within_cast_parentheses=false
+# 強制轉換括號內不保留空格。
+
+cpp_space_after_cast_close_parenthesis=false
+# 強制轉換的閉括號後不保留空格。
+
+cpp_space_within_expression_parentheses=false
+# 表達式的括號內不保留空格。
+
+cpp_space_before_block_open_brace=true
+# 在程式區塊的開始括號前保留空格。
+
+cpp_space_between_empty_braces=false
+# 空程式區塊的括號內不保留空格。
+
+cpp_space_before_initializer_list_open_brace=false
+# 在初始化列表的開始括號前不保留空格。
+
+cpp_space_within_initializer_list_braces=true
+# 初始化列表的括號內保留空格。
+
+cpp_space_preserve_in_initializer_list=true
+# 在初始化列表中保留空格。
+
+cpp_space_before_open_square_bracket=false
+# 開方括號前不保留空格。
+
+cpp_space_within_square_brackets=false
+# 方括號內不保留空格。
+
+cpp_space_before_empty_square_brackets=false
+# 空方括號前不保留空格。
+
+cpp_space_between_empty_square_brackets=false
+# 空方括號內不保留空格。
+
+cpp_space_group_square_brackets=true
+# 方括號進行分組。
+
+cpp_space_within_lambda_brackets=false
+# lambda 函數的括號內不保留空格。
+
+cpp_space_between_empty_lambda_brackets=false
+# 空 lambda 函數的括號內不保留空格。
+
+cpp_space_before_comma=false
+# 逗號前不保留空格。
+
+cpp_space_after_comma=true
+# 逗號後保留空格。
+
+cpp_space_remove_around_member_operators=true
+# 成員運算符周圍刪除空格。
+
+cpp_space_before_inheritance_colon=true
+# 繼承冒號前不保留空格。
+
+cpp_space_before_constructor_colon=false
+# 構造函數冒號前不保留空格。
+
+cpp_space_remove_before_semicolon=true
+# 分號前刪除空格。
+
+cpp_space_after_semicolon=false
+# 分號後不保留空格。
+
+cpp_space_remove_around_unary_operator=true
+# 單目運算符周圍刪除空格。
+
+cpp_space_around_binary_operator=insert
+# 二元運算符周圍插入空格。
+
+cpp_space_around_assignment_operator=insert
+# 賦值運算符周圍插入空格。
+
+cpp_space_pointer_reference_alignment=left
+# 指針和引用的對齊方式為左對齊。
+
+cpp_space_around_ternary_operator=insert
+# 三元運算符周圍插入空格。
+
+cpp_wrap_preserve_blocks=one_liners
+# 保留 one-liners 形式的程式碼塊的換行。
+
+[*.{cpp,hpp,c,h}]
+cpp_new_line_before_open_brace_type=insert
+cpp_new_line_close_brace_same_line_empty_type=true
