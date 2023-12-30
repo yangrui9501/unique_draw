@@ -68,5 +68,6 @@ int main() {
         }
     }
 
+    std::cout << "Program done.\n";
     return 0;
 }
